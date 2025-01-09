@@ -1,0 +1,100 @@
+/* Style for the main body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('cab4.jpg') repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: overlay; 
+    background-color: rgba(44, 40, 40, 0.8); /* Light overlay for fading */
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 40;
+    color: #f4f3f3;
+}
+
+
+
+
+/* Layout and styling for the cab list */
+.cab-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 7%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cab-item {
+    border: 1px solid #2b2a2a;
+    border-radius: 8px;
+    width: 200px;
+    padding: 10px;
+    background-color: #e7e3e3;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cab-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.cab-title {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.cab-price {
+    color: #0c0c0c;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.book-button {
+    padding: 10px;
+    width: 100%;
+    background-color: #28a745;
+    color: rgb(15, 13, 13);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.book-button:hover {
+    background-color: #218838;
+}
+
+/* Add this to your CSS */
+.book-link {
+    display: inline-block;         /* Makes the link behave like a block element */
+    background-color: #28a745;     /* Green background */
+    color: white;                  /* White text */
+    text-align: center;            /* Center the text */
+    padding: 10px 20px;            /* Padding inside the link */
+    border-radius: 5px;            /* Rounded corners */
+    text-decoration: none;         /* Remove the underline */
+    font-size: 16px;               /* Increase the font size */
+    cursor: pointer;              /* Change cursor to pointer on hover */
+}
+
+.book-link:hover {
+    background-color: #218838;     /* Darker green on hover */
+}
+
+.move{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.head{
+    margin-top: 10px;
+}
